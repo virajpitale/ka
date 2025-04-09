@@ -1,65 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Klub Fox - Ahilyanagar</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Klub Fox Ahilyanagar</title>
+
+  <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-wwe8rHvnfSAdljtkfMbvnL+7OXrIgCGsmvOmU7Ro3tbxR1eMRl4Dq4O/X9wGZqPq+mFwygTrBP1n4E2gkkdpXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      padding: 1.5rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .link-item {
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 0.75rem 1rem;
+      background-color: #fff;
+      transition: background 0.2s;
+    }
+
+    .link-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .link-item i {
+      margin-right: 12px;
+      font-size: 1.5rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 2rem;
+      border-radius: 12px;
+    }
+  </style>
 </head>
-<body class="bg-red-600 text-white font-sans">
+<body>
 
-  <div class="max-w-sm mx-auto bg-red-600 min-h-screen py-8 px-4">
+  <header>
+    <h1>Klub Fox - Ahilyanagar</h1>
+  </header>
 
-    <div class="flex flex-col items-center mb-6">
-      <img src="https://i.ibb.co/NsxhsSG/klubfox-logo.png" alt="Klub Fox Logo" class="w-20 h-20 rounded-full mb-2">
-      <h2 class="text-xl font-semibold">@klubfox_ahilyanagar</h2>
-      <p class="text-sm text-white text-center">Stylish men’s clothing, from trendy casuals to classic formals.</p>
+  <div class="container">
+    <div class="contact-links">
+      <a class="link-item" href="https://www.instagram.com/klubfox.ahilyanagar" target="_blank">
+        <i class="fab fa-instagram" style="color:#E1306C;"></i> Instagram Page
+      </a>
+
+      <a class="link-item" href="https://chat.whatsapp.com/InviteLinkHere" target="_blank">
+        <i class="fab fa-whatsapp" style="color:green;"></i> WhatsApp Group
+      </a>
+
+      <a class="link-item" href="tel:+919876543210">
+        <i class="fas fa-phone-alt" style="color:blue;"></i> Call Now
+      </a>
+
+      <a class="link-item" href="https://maps.app.goo.gl/1XXbVByyeHMEjfsG7" target="_blank">
+        <i class="fas fa-map-marker-alt" style="color:red;"></i> Open in Google Maps
+      </a>
     </div>
 
-    <!-- Instagram -->
-    <a href="https://instagram.com/klubfox_ahilyanagar" target="_blank" class="bg-white text-black rounded-xl py-3 px-4 flex items-center mb-4 shadow">
-      <i class="fab fa-instagram text-pink-600 text-xl mr-3"></i> Instagram
-    </a>
-
-    <!-- WhatsApp -->
-    <a href="https://wa.me/919876543210" target="_blank" class="bg-white text-black rounded-xl py-3 px-4 flex items-center mb-4 shadow">
-      <i class="fab fa-whatsapp text-green-600 text-xl mr-3"></i> WhatsApp
-    </a>
-
-    <!-- WhatsApp Group -->
-    <a href="https://chat.whatsapp.com/your-group-link" target="_blank" class="bg-white text-black rounded-xl py-3 px-4 flex items-center mb-4 shadow">
-      <i class="fas fa-users text-blue-500 text-xl mr-3"></i> WhatsApp Group
-    </a>
-
-    <!-- Call -->
-    <a href="tel:+919876543210" class="bg-white text-black rounded-xl py-3 px-4 flex items-center mb-4 shadow">
-      <i class="fas fa-phone-alt text-green-500 text-xl mr-3"></i> Call Us
-    </a>
-
-    <!-- Address -->
-    <div class="bg-white text-black rounded-xl p-4 mb-4 shadow">
-      <p class="text-sm">
-        Klub Fox | Manmad Road | Ahilyanagar · Madane Arcade, Opp Malabar Gold, Premdan Chock, Nagar,<br>
-        Ahilyanagar– Manmad Rd, Savedi, Ahilya Nagar,<br>
-        Maharashtra 414003, India
-      </p>
-    </div>
-
-    <!-- Google Map Embed -->
-    <div class="rounded-xl overflow-hidden shadow mb-4">
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8321276190736!2d74.72770057520631!3d19.115019082097582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcbbf56cea6d75%3A0x1a47b87006e6dab!2sKlub%20Fox%20%7C%20Manmad%20Road%20%7C%20Ahilyanagar!5e0!3m2!1sen!2sin!4v1744181081512!5m2!1sen!2sin" 
-        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-
-    <!-- Directions -->
-    <a href="https://maps.app.goo.gl/1XXbVByyeHMEjfsG7" target="_blank" class="bg-white text-black rounded-xl py-3 px-4 flex justify-center shadow">
-      <i class="fas fa-map-marker-alt text-red-600 text-xl mr-2"></i> Directions
-    </a>
-
-    <p class="text-center text-white mt-6 text-sm">Powered by Linktree</p>
-
+    <!-- Embedded Google Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8321276190736!2d74.72770057520631!3d19.115019082097582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcbbf56cea6d75%3A0x1a47b87006e6dab!2sKlub%20Fox%20%7C%20Manmad%20Road%20%7C%20Ahilyanagar!5e0!3m2!1sen!2sin!4v1744181081512!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
 </body>
